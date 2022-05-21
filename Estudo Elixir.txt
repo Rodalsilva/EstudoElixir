@@ -1,9 +1,5 @@
-Elixir é uma linguagem de programação funcional voltada para resolver problemas de escalabilidade (o que pode ser entendido
-como a capacidade de um sistema suportar um aumento de carga quando os recursos de hardware exigem), tolerância a
-falhas (capacidade de um sistema continuar operando adequadamente mesmo após alguma falha em algum componente ou
-componentes) e alta concorrência. É executada sobre a máquina virtual Erlang e também possui um Framework conhecido
-como Phoenix, que permite criar aplicações web. Por ser funcional, Elixir é capaz de usufruir de todo o poder de
-processadores multi-core.
+Elixir é uma linguagem de programação funcional voltada para resolver problemas de escalabilidade (o que pode ser entendido como a capacidade de um sistema suportar
+um aumento de carga quando os recursos de hardware exigem), tolerância a falhas (capacidade de um sistema continuar operando adequadamente mesmo após alguma falha em algum componente ou componentes) e alta concorrência. É executada sobre a máquina virtual Erlang e também possui um Framework conhecido como Phoenix, que permite criar aplicações web. Por ser funcional, Elixir é capaz de usufruir de todo o poder de processadores multi-core.
 
 Primeiro desafio na linguagem
 
