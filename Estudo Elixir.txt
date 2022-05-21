@@ -7,17 +7,18 @@ processadores multi-core.
 
 Primeiro desafio na linguagem
 
-Após instalar o Elxir, como sou usuário do Windows, achei muito mais prático usar o Elixir Interativo (iex) no
-terminal Cmder (https://cmder.net/). Por exemplo, o comando clear não funcionava no aplicativo Elixir e nem no
-terminal cmd, tendo como resposta o enunciado abaixo:
+Após instalar o Elxir, como sou usuário do Windows, achei muito mais prático usar o Elixir Interativo (iex) no terminal Cmder (https://cmder.net/). Por exemplo, o comando clear não funcionava no aplicativo Elixir e nem no terminal cmd, tendo como resposta o enunciado abaixo:
 
 Cannot clear the screen because ANSI escape codes are not enabled on this shell
 
-Na busca para a solução desta situação, em que li as sugestões dadas nos fóruns, observei que o terminal Cmder
-respondia bem ao comando Application.put_env(:elixir, :ansi_enabled, true), que permite o uso do comando clear. 
+Na busca para a solução desta situação, em que li as sugestões dadas nos fóruns, observei que o terminal Cmder respondia bem ao comando 
+
+              Application.put_env(:elixir, :ansi_enabled, true)
+
+que permite o uso do comando clear. 
 O uso do comando Application ... nos outros terminais tinha como resposta um erro:
 
-^[[33m^[[36m:ok^[[0m^[[33m^[[0m
+             ^[[33m^[[36m:ok^[[0m^[[33m^[[0m
 
 O terminal Cmder também se mostrou muito mais útil para trabalhar com módulos e funções, como veremmos mais adiante.
 
@@ -27,10 +28,9 @@ Primeiro, criei uma pasta onde salvei o arquivo programa1.ex e o abri no Visual 
 
 IO.puts "Ola Mundo"
 
-A função IO.puts imprime o conteúdo do argumento no console e este conteúdo pode estar entre parênteses ou não.
-Para executar o programa, deve-se navegar no terminal Cmder até a pasta onde ele está arquivado - no meu caso:
+A função IO.puts imprime o conteúdo do argumento no console e este conteúdo pode estar entre parênteses ou não. Para executar o programa, deve-se navegar no terminal Cmder até a pasta onde ele está arquivado - no meu caso:
 
-cd .. -> cd Elixir -> cd IntroducaoElixir
+               cd .. -> cd Elixir -> cd IntroducaoElixir
 
 Por último, executar iex programa1.ex
 
