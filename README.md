@@ -18,7 +18,7 @@ O uso do comando Application ... nos outros terminais tinha como resposta um err
 
              ^[[33m^[[36m:ok^[[0m^[[33m^[[0m
 
-O terminal Cmder também se mostrou muito mais útil para trabalhar com módulos e funções, como veremmos mais adiante.
+O terminal Cmder também se mostrou muito mais útil para trabalhar com módulos e funções, como veremos mais adiante.
 
 Primeiro Programa em Elixir
 
