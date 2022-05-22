@@ -3,7 +3,7 @@
 Elixir é uma linguagem de programação funcional voltada para resolver problemas de escalabilidade (o que pode ser entendido como a capacidade de um sistema suportar um aumento de carga quando os recursos de hardware exigem), tolerância a falhas (capacidade de um sistema continuar operando adequadamente mesmo após alguma falha em algum
 componente ou componentes) e alta concorrência. É executada sobre a máquina virtual Erlang e também possui um Framework conhecido como Phoenix, que permite criar aplicações web. Por ser funcional, Elixir é capaz de usufruir de todo o poder de processadores multi-core.
 
-Primeiro desafio na linguagem
+<h1>Primeiro desafio na linguagem</h1>
 
 Após instalar o Elxir, como sou usuário do Windows, achei muito mais prático usar o Elixir Interativo (iex) no terminal Cmder (https://cmder.net/). Por exemplo, o comando clear não funcionava no aplicativo Elixir e nem no terminal cmd, tendo como resposta o enunciado abaixo:
 
@@ -20,7 +20,7 @@ O uso do comando Application ... nos outros terminais tinha como resposta um err
 
 O terminal Cmder também se mostrou muito mais útil para trabalhar com módulos e funções, como veremos mais adiante.
 
-Primeiro Programa em Elixir
+<h2>Primeiro Programa em Elixir<h2>
 
 Primeiro, criei uma pasta onde salvei o arquivo programa1.ex e o abri no Visual Studio Code e escrevi
 
