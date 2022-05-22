@@ -30,3 +30,5 @@ A função IO.puts imprime o conteúdo do argumento no console e este conteúdo 
 Por último, executar:
 
               iex programa1.ex
+ 
+ A extensão .ex é a extensão de um arquivo escrito em Elixir.
