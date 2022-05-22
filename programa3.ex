@@ -2,10 +2,10 @@ defmodule MeuModulo do
     import IO, only: [puts: 1]
     import Kernel, except: [inspect: 1]
 
-    alias MeuModulo.Math
+    alias MeuModulo.Math, as: MyMath
 
     def ola_mundo do
-        inspect(MeuModulo.Math.soma(2,2))
+        inspect(MyMath.soma(2,2))
     end
 
 
